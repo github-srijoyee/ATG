@@ -16,7 +16,7 @@ const Addnew = () => {
           <div className="card-description p-4 ps-5">
             Are you a teacher or expert? Do you sell or rent out equipment, venue or event tickets? Or, do you know someone who should be on Hobbycue? Go ahead and Add your Own page.
           </div>
-          <a href="#">
+          <a href="#cards">
           <button
             className="me-2 btn-custom ms-5 me-5 ps-5 pe-5 mb-5 rounded text-customcolor"
           >
