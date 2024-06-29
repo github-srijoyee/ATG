@@ -1,0 +1,21 @@
+
+.cardinner {
+    background-color: #fff;
+    border-radius: 5px;
+    border: solid 0.3px grey;
+ margin-left: 4rem;
+ margin-right: 4rem;
+}
+.card-description{
+    font-family: 'Inter',sans-serif;
+    font-size: 1.2rem;
+}
+@media (max-width: 992px) {
+    .cardinner {
+     margin-left: 2rem;
+     margin-right: 2rem;
+     & .card-description{
+        font-size: 0.8rem;
+     }
+    }
+}

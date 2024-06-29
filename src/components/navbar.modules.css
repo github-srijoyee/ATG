@@ -1,0 +1,25 @@
+/* Default logo size */
+.logo {
+    height: 50px;
+    width: 280px;
+  }
+
+  /* Adjust logo size for tablets */
+  @media (max-width: 1300px) {
+    .logo {
+      height: 40px;
+      width: 224px;
+    }
+  }
+  
+  /* Adjust logo size for mobile */
+  @media (max-width: 576px) {
+    .logo {
+      height: 30px;
+      width: 100px;
+    }
+    .navbar-nav{
+      padding-left: 0;
+    }
+  }
+  

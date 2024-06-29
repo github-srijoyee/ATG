@@ -1,0 +1,120 @@
+.frameChild {
+    width: 608px;
+    height: 297px;
+    position: relative;
+    border-radius: var(--br-5xs);
+    background-color: var(--grey-white);
+    border: 1px solid var(--grey-light);
+    box-sizing: border-box;
+    display: none;
+    max-width: 100%;
+  }
+  .groupsBlack24dp11 {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 40px;
+    z-index: 1;
+  }
+  .people {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 600;
+    font-family: inherit;
+    display: inline-block;
+    min-width: 83px;
+    z-index: 1;
+  }
+  .featureIconsFirstPair,
+  .firstRowLabels {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .firstRowLabels {
+    flex-direction: column;
+    padding: var(--padding-11xs) 0 0;
+  }
+  .featureIconsFirstPair {
+    flex-direction: row;
+    gap: var(--gap-5xl);
+  }
+  .findATeacher {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-lg);
+    font-weight: 300;
+    white-space: pre-wrap;
+    z-index: 1;
+  }
+  .featureIconsFirstRow {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xl);
+  }
+  .connect {
+    position: relative;
+    font-size: var(--text-sm-bold-size);
+    line-height: 16px;
+    font-weight: 600;
+    font-family: var(--text-sm-bold);
+    color: var(--primary-full);
+    text-align: left;
+    display: inline-block;
+    min-width: 61px;
+  }
+  .navLabel {
+    cursor: pointer;
+    border: 1px solid var(--primary-full);
+    padding: var(--padding-3xs) var(--padding-10xl) var(--padding-3xs)
+      var(--padding-11xl);
+    background-color: var(--grey-white);
+    border-radius: var(--br-5xs);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    z-index: 1;
+  }
+  .navLabel:hover,
+  .rectangleParent {
+    background-color: var(--color-gainsboro);
+    border: 1px solid var(--color-plum);
+    box-sizing: border-box;
+  }
+  .rectangleParent {
+    flex: 1;
+    border-radius: var(--br-5xs);
+    background-color: var(--grey-white);
+    border: 1px solid var(--grey-light);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-19xl) var(--padding-24xl);
+    gap: var(--gap-13xl);
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--font-size-5xl);
+    color: var(--base-black);
+    font-family: var(--text-sm-bold);
+  }
+  @media screen and (max-width: 750px) {
+    .rectangleParent {
+      gap: var(--gap-base);
+      padding-left: var(--padding-2xl);
+      padding-right: var(--padding-2xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .people {
+      font-size: var(--font-size-lgi);
+    }
+  }

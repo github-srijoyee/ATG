@@ -1,0 +1,25 @@
+.headline{
+   justify-content: center;
+   align-items: center;
+   display: flex;
+}
+.card1:hover {
+   background-color: #8064A2;
+   color: white;
+  }
+  
+  .card2:hover {
+  background-color: #77933C;
+  color: white;
+  }
+  
+  .card3:hover {
+  background-color: #C0504D;
+  color: white;
+  }
+  
+  .card4:hover {
+   background-color: #0096CB;
+   color: white;
+  }
+  

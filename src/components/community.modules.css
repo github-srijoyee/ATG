@@ -1,0 +1,25 @@
+.comflex{
+    display: flex;
+    justify-content: space-between;
+}
+.noncomflex{
+    display: flex;
+    flex-direction: column;
+}
+.commimg{
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+@media (max-width: 450px) {
+    .commimg{
+        height: auto;
+        width: 100%;
+        overflow: hidden;
+    }
+    .noncomflex{
+        display: none;
+    }
+
+}
