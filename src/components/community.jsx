@@ -5,7 +5,7 @@ const Community = () => {
     
 <>
         <div className="cardouter bg-cublue pt-4 pb-4 mt-6 mb-6 p-6">
-        <h1 className='pt-4 pb-4'>Your <span className="text-blue">hobby</span> , Your <span className="text-violet">Community...</span></h1>
+        <h1 className='pt-4 pb-4 heading'>Your <span className="text-blue">hobby</span> , Your <span className="text-violet">Community...</span></h1>
         <div className='comflex'>
             <div>
         <button className="me-2 btn-custom1 ps-3 pe-3 pt-2 pb-2 mb-9 rounded text-customcolor">

@@ -38,7 +38,7 @@ const Navbar = () => {
             <div className='search-box'>
             <form className="d-flex flex-form ">
               <input type="search" placeholder="Search here..." className="input1" />
-              <input type="submit" value="🔎" />
+              <input type="submit" value="Search" className='fs-custom'/>
             </form>
             </div>
             <div className="d-flex">
@@ -95,9 +95,13 @@ const Navbar = () => {
                 </a>
               </li>
             </div>
+            
             <button className="me-2 btn-custom me-5 ms-5 ps-5 pe-5 rounded text-customcolor">
+            <a href="#form1" className='button-link'>
                 Sign In
+                </a>
               </button>
+             
           </ul>
         </div>
 

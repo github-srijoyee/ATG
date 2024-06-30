@@ -6,7 +6,10 @@
   .bell{
     display: none;
   }
-
+.button-link{
+  text-decoration: none;
+  color: #8064A2;
+}
   /* Adjust logo size for tablets */
   @media (max-width: 1300px) {
     .logo {

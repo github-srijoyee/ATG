@@ -45,21 +45,24 @@ const Hero = () => {
                 <img src="Connect With Separator.png" alt="" className={styles.img_separator}/>
               </div>
               <div className="input1 mb-4">
-                <input type="email" name="email" placeholder="Email" id="email" required autoComplete="off" className="input1" />
+                <input type="email" name="email" placeholder="Email" id="email" autoComplete="off" className="input1" />
               </div>
               <div className="input1">
-                <input type="password" name="password" placeholder="Password" id="password" required autoComplete="off" className="input1" />
+                <input type="password" name="password" placeholder="Password" id="password" autoComplete="off" className="input1" />
               </div>
               <br />
               <div className="group ps-5">
                 <div className="container d-flex">
                   <div className="left-elements">
                     <input id="check" type="checkbox" className="check" />
-                    <label htmlFor="check"><span className="icon"></span> Remember me</label>
+                    
+                    <label htmlFor="check" className='fs-custom'><span className="icon"></span> Remember me</label>
+                    
+                    
                   </div>
                   <div className="right-elements ps-4">
                     <img src="lock_black_24dp 1.png" alt="Lock Icon" />
-                    <a href="#forgot">Forgot Password?</a>
+                    <a href="#forgot" className='fs-custom'>Forgot Password?</a>
                   </div>
                 </div>
               </div>

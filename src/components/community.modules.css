@@ -11,7 +11,9 @@
     width: 100%;
     overflow: hidden;
 }
-
+.heading{
+    font-style:italic ;
+}
 @media (max-width: 450px) {
     .commimg{
         height: auto;
