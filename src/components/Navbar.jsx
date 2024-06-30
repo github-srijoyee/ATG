@@ -16,6 +16,10 @@ const Navbar = () => {
         <a className="navbar-brand ps-5" href="#">
           <img className="logo" src="HobbyCueLogo.png" alt="HobbyCue" />
         </a>
+        <div className="bell">
+          <img src="icons8_search.png" alt="" className='pe-4'/>
+          <img src="notifications_black_24dp 1.png" alt="" />
+        </div>
         <button
           className="navbar-toggler"
           type="button"
@@ -25,14 +29,18 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
+
           <span className="navbar-toggler-icon" />
         </button>
+
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav me-auto ps-4">
-            <form className="d-flex flex-form">
+          <ul className="navbar-nav me-auto ">
+            <div className='search-box'>
+            <form className="d-flex flex-form ">
               <input type="search" placeholder="Search here..." className="input1" />
               <input type="submit" value="🔎" />
             </form>
+            </div>
             <div className="d-flex">
               <li className="nav-item dropdown ps-5">
                 <a
@@ -60,7 +68,7 @@ const Navbar = () => {
               </li>
               <li className="nav-item dropdown ps-4">
                 <a
-                  className="nav-link dropdown-toggle"
+                  className="nav-link dropdown-toggle icons"
                   href="#"
                   id="hobbiesDropdown"
                   role="button"
@@ -71,17 +79,17 @@ const Navbar = () => {
                   Hobbies
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item icons">
                 <a className="nav-link active" aria-current="page" href="#">
                   <img src="bookmark_black_24dp 1.png" alt="Bookmark" className="ps-4" />
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item icons">
                 <a className="nav-link" href="#">
                   <img src="notifications_black_24dp 1.png" alt="Notifications" className="ps-3" />
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item icons">
                 <a className="nav-link" href="#">
                   <img src="Product 3.png" alt="Profile" className="ps-3" />
                 </a>
@@ -92,6 +100,7 @@ const Navbar = () => {
               </button>
           </ul>
         </div>
+
       </div>
     </nav>
   );

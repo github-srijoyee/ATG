@@ -103,8 +103,9 @@ const Hero = () => {
           )}
         </div>
         <div>
-        <img src="Group_27.png" alt="" className={styles.hero2} />
+       
         </div>
+        <img src="Group_27.png" alt="" className={styles.hero2} />
       </div>
     </div>
   );

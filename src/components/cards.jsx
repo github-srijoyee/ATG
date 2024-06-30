@@ -5,9 +5,11 @@ import styles from '@/components/cards.module.css';
 const Cards = () => {
   return (
     <div className="container mt-5" id="cards">
-         <h3 className="headline pb-4">
+      <div className='headline'>
+         <h3 className=" pb-4 ">
           <img src="Add.png" alt="" />
           Add Your Listing</h3>
+          </div>
       <div className="row">
         <div className="col-md-6 col-sm-12 mb-4">
           <div className={`card ${styles.card1}`}>

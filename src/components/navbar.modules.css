@@ -3,6 +3,9 @@
     height: 50px;
     width: 280px;
   }
+  .bell{
+    display: none;
+  }
 
   /* Adjust logo size for tablets */
   @media (max-width: 1300px) {
@@ -10,8 +13,27 @@
       height: 40px;
       width: 224px;
     }
+    .search-box{
+      display: none;
+    }
   }
-  
+  @media (max-width: 672px){
+.bell{
+  display: block;
+  height: 1rem;
+  width: 1rem;
+  display: flex;
+}
+.icons{
+  display: none;
+}
+  }
+  @media (max-width: 372px){
+    .logo {
+      height: 20px;
+      width: 60px;
+    }
+      }
   /* Adjust logo size for mobile */
   @media (max-width: 576px) {
     .logo {
@@ -20,6 +42,9 @@
     }
     .navbar-nav{
       padding-left: 0;
+    }
+    .search-box{
+      display: none;
     }
   }
   

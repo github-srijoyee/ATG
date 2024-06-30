@@ -1,6 +1,6 @@
 .headline{
-   justify-content: center;
-   align-items: center;
+   justify-self: center;
+   align-self: center;
    display: flex;
 }
 .card1:hover {
